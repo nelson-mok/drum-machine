@@ -64,7 +64,8 @@ function App() {
 
   return (
     <div>
-      <br /><br />
+      <br />
+      <br />
       <h1 id='display'>Press Key to Play Sound </h1>
       {buttons.map(element=><Pad button = {element}/>)}
     </div>
